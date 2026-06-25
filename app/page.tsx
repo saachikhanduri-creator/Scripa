@@ -197,7 +197,7 @@ export default function Home() {
       <div className="topbar">
         <div className="logo">scrip<span className="logo-accent">a</span></div>
         <div className="vertical-badge">
-          {vertical === 'trades' ? '🔧 HVAC' : vertical === 'vet' ? '🐾 Veterinary' : '💧 Plumbing'}
+          {vertical === 'trades' ? 'HVAC' : vertical === 'vet' ? 'Veterinary' : 'Plumbing'}
         </div>
       </div>
 
